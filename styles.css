@@ -247,3 +247,27 @@ main {
 .card__content--des-demo {
   font-size: var(--font-size-medium);
 }
+
+
+/***** footer *****/
+
+.footer {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__list {
+    display: flex;
+    align-items: center;
+  }
+  .footer__img {
+    width: 30px;
+    margin: 4px 8px;
+  }
+  .footer__content {
+    color: var(--primary-bg);
+    font-size: var(--font-size-medium);
+  }
+  
