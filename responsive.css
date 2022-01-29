@@ -1,0 +1,104 @@
+@media screen and (max-width: 975px) {
+    /* main Content */
+    main{
+        padding:8px
+    }
+
+    /* Home Page */
+
+    .homepage-hero {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .homepage-hero__content{
+        padding:2rem 0rem;
+        width:calc(100vw - 8px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align:center;
+        order:2;
+    }
+    .homepage-hero__img-wrapper{
+        width:80vw;
+        display:flex;
+        justify-content:center;
+    }
+    .homepage-hero__img{
+        width: 80%;
+    }
+
+    /* Primary Card */
+
+    .primary-card{
+        margin-top: 5rem;
+    }
+
+    .card__intro{
+        margin:2rem 0;
+    }
+
+    /* Secondary Card */
+
+    .card__content{
+        margin:8px 0;
+    }
+    .card__content-demo{
+        width: 90vw;
+        margin: 1rem;
+    }
+}
+@media screen and (max-width:550px) {
+
+    /* main page */
+
+    main{
+        padding:8px
+    }
+    /* Logo */
+    .nav-bar__img--logo {
+        margin-left: 8px;
+    }
+
+    /* Home Page */
+
+    .homepage-hero__img-wrapper{
+        width:80vw;
+        display:flex;
+        justify-content:center;
+    }
+    .homepage-hero__img{
+        margin-top:1rem;
+        width: 100%;
+    }
+
+    /* Primary Card */
+
+    .card__intro{
+        margin:8px 0;
+    }
+    .card__intro--title{
+        margin:8px 0;
+    }
+    .card__intro--content{
+        margin:8px;
+    }
+
+    /* Card Code Container */
+
+    .card__code--container{
+        width:100%;
+    }
+
+    /* Nav Hamburger */
+
+    .nav-bar--simple{
+        display: none;
+    }
+    .nav-bar--hamburger{
+        padding-right: 8px;
+        display:flex;
+        justify-content: space-between;
+    }
+}
