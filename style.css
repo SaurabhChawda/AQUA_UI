@@ -94,11 +94,6 @@ body {
   margin: 1rem;
   color: var(--primary-color);
 }
-.hamburger__close-btn {
-  position: absolute;
-  right: 0;
-  margin: 1rem;
-}
 .hamburger__list {
   text-align: center;
 }
@@ -108,6 +103,9 @@ body {
   color: var(--primary-color);
 }
 .hamburger__close-btn {
+  position: absolute;
+  right: 0;
+  margin: 1rem;
   width: 6vw;
 }
 .hamburger__item:hover {
