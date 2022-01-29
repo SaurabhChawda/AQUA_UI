@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/***** Reset Stylesheet *****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a {
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+/*****Colors*****/
+
+:root {
+  --primary-bg: blueviolet;
+  --secondary-bg: #ff7110;
+  --Background-color: #2218a3;
+  --primary-color: white;
+  --secondary-color: black;
+  --font-size-X-large: clamp(1rem, 2.5vw, 1.8rem);
+  --font-size-large: clamp(12px, 2.5vw, 1.2rem);
+  --font-size-medium: clamp(12px, 2.5vw, 1rem);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*****Navigation Bar For Desktop *****/
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: var(--primary-color);
+}
+.nav-bar__img--logo {
+  margin-left: 1rem;
+  min-width: 5rem;
+  max-width: 8vw;
+}
+.nav-bar__list {
+  margin-right: 1rem;
+  display: flex;
+}
+.nav-bar__item {
+  font-size: var(--font-size-large);
+  color: var(--secondary-color);
+  padding: 5px;
+  border: 2px solid transparent;
+}
+.nav-bar__item:hover {
+  border-bottom: 2px solid var(--secondary-bg);
+  color: var(--secondary-bg);
+}
