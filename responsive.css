@@ -9,7 +9,7 @@
     }
     .homepage-hero__content{
         padding:2rem 0rem;
-        width:80vw;
+        width:calc(100vw - 8px);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -31,7 +31,11 @@
         margin:2rem 0;
     }
     .card__content{
-        margin:1rem 0;
+        margin:8px 0;
+    }
+    .card__content-demo{
+        width: 90vw;
+        margin: 1rem;
     }
 }
 @media screen and (max-width:550px) {
@@ -50,10 +54,13 @@
     .card__intro{
         margin:8px 0;
     }
-}
-
-@media screen and (max-width:1375px) {
-    .card__content-demo{
-        width: 100%;
+    .card__intro--title{
+        margin:8px 0;
+    }
+    .card__intro--content{
+        margin:8px;
+    }
+    .card__code--container{
+        width:100%;
     }
 }
