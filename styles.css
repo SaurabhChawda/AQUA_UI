@@ -12,9 +12,9 @@ li {
 }
 a {
   font-size: 100%;
-  vertical-align: baseline;
   background: transparent;
   text-decoration: none;
+  display: block;
 }
 
 /*****Colors*****/
@@ -106,7 +106,7 @@ body {
   position: absolute;
   right: 0;
   margin: 1rem;
-  width: 6vw;
+  width: 1rem;
 }
 .hamburger__item:hover {
   color: var(--secondary-bg);
