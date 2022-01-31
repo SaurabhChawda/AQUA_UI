@@ -1,0 +1,28 @@
+@media screen and (max-width: 975px) {
+  .sidebar {
+    width: 12rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .sidebar {
+    width: 10rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .nav-bar__img--logo {
+    margin-left: 8px;
+  }
+  .sidebar {
+    display: none;
+  }
+  /* Nav Hamburger */
+
+  .nav-bar--simple {
+    display: none;
+  }
+  .nav-bar--hamburger {
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
