@@ -248,6 +248,7 @@ main {
   font-size: var(--font-size-large);
 }
 .card__content--des-demo {
+  margin:1rem;
   font-size: var(--font-size-medium);
 }
 
@@ -274,7 +275,7 @@ main {
     font-size: var(--font-size-medium);
   }
   
-  ::-webkit-scrollbar{
+::-webkit-scrollbar{
     width:5px;
 }
 ::-webkit-scrollbar-track{
