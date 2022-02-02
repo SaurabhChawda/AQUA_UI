@@ -293,3 +293,98 @@ main {
   width: 4rem;
   border-radius: 50%;
 }
+
+/*Button Wrapper */
+.button__container{
+  margin:1rem;
+}
+.btn--demo{
+  padding: 0.4rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size:var(--font-size-medium);
+  font: weight 900px;
+}
+/* Primary Secondary Color */
+.button--primary{
+  margin: 8px;
+  border: 2px solid blueviolet;
+  background-color:blueviolet;
+  color: white;
+}
+.button--secondary{
+  margin: 8px;
+  background-color: transparent;
+  border: 2px solid blueviolet;
+  color:blueviolet;
+}
+.button--primary:hover{
+  background-color: transparent;
+  border: 2px solid blueviolet;
+  color:blueviolet;
+}
+.button--secondary:hover{
+  background-color:blueviolet;
+  color: white;
+}
+/*Link Button*/
+
+.button__link--primary{
+  display: inline;
+}
+.button__link--secondary{
+  display: inline;
+}
+.btn__link{
+  margin: 8px;
+  cursor: pointer;
+  background-color:rgb(125, 192, 1);
+  color: white;
+}
+.btn__link:hover{ 
+  box-shadow: 0px 0px 5px rgb(125, 192, 1);
+}
+/*Button Icon */
+.button__wrapper{
+  display: flex;
+  flex-wrap:wrap;
+
+}
+.btn__icon{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.btn__span-content{
+  margin: auto;
+}
+.btn__icon-content{
+  margin-right: 0.5rem;
+}
+.button__icon--primary{
+  background-color:rgb(24, 163, 255);
+  color: white;
+}
+.button__icon--secondary{
+  background-color:#0e76a8;
+  color: white;
+}
+
+/* Float Button */
+.btn__float{
+  display: flex;
+  flex-wrap: wrap;
+  padding:0.5rem 0.5rem;
+  margin: 0.5rem;
+}
+.btn__float{
+  background-color: transparent;
+  border: 2px solid rgb(0, 153, 255);
+}
+.btn__float:hover{
+ box-shadow: 0px 0px 5px rgb(0, 153, 255);
+}
+
+
