@@ -264,3 +264,32 @@ main {
   background-color: rgb(255, 0, 0);
   color:white;
 }
+
+/*badge */
+.badge__wrapper{
+  margin: 1rem;
+  display: inline-block;
+  position: relative;
+}
+.badge--logo{
+  font-size:70%;
+  font-weight: 900;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding:0.1rem 0.4rem;
+  text-align: center;
+  position: absolute;
+  right:-5px;
+}
+/*badge on Icon */
+.badge__icon--img{
+  width: 3rem;
+
+}
+/*badge On Avatar */
+.badge__avatar--img{
+  width: 4rem;
+  border-radius: 50%;
+}
