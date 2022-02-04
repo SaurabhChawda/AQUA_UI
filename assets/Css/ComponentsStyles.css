@@ -416,6 +416,7 @@ main {
 .Input__container--error{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .input__wrapper--error{
   display: flex;
