@@ -152,13 +152,13 @@ main {
   color: var(--secondary-bg);
 }
 
-/***** Sample card *****/
+/***** Sample Component-box *****/
 
-.card{
+.component-box{
   width: calc(100vw - 15rem);
   margin: 4.5rem 1rem 1rem 16rem;
 }
-.card-demo{
+.component-box-demo{
   margin: auto;
   max-width:60rem;
   border: 3px solid var(--secondary-bg);
@@ -168,7 +168,7 @@ main {
   flex-direction: column;
   align-items: center; 
 }
-.card-demo--title{
+.component-box-demo--title{
   margin: 1rem;
   font-size: var(--font-size-large);
   padding: 5px 1rem;
@@ -176,7 +176,7 @@ main {
   color: var(--primary-color);
   background-color: var(--primary-bg);
 }
-.card-demo--desc,.card-demo--container{
+.component-box-demo--desc,.component-box-demo--container{
   width: 90%;
   margin: 0 1rem 1rem 1rem;
   padding: 1rem;
