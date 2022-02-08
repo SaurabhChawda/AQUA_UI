@@ -118,7 +118,7 @@ body {
 /*****main Content*****/
 main {
   padding: 2rem;
-  background-image: url("/assets/images/Home\ Bg.png");
+  background-color: var(--Background-color);
   background-size: cover;
 }
 

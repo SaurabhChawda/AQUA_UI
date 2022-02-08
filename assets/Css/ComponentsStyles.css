@@ -66,6 +66,7 @@ body {
   color: var(--secondary-bg);
 }
 
+
 /* Navigation Bar For Tab and Mobile */
 
 .nav-bar--hamburger {
@@ -579,3 +580,4 @@ cursor: pointer;
 .toast__close{
   display: flex;
 }
+
