@@ -581,3 +581,121 @@ cursor: pointer;
   display: flex;
 }
 
+/*card Components Start Here*/
+
+.card__wrapper{
+  display: flex;
+  flex-direction: column;
+  max-width: 18rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px rgb(167, 167, 167);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+}
+.card__bg--img{
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 0.2rem;
+}
+.card__content--text{
+  font-size: small;
+  margin:0.5rem 0rem;
+  font-weight: bold;
+}
+.card__button--container{
+  display: flex;
+  justify-content:center;
+  margin: 0.5rem 0rem;
+}
+.card__btn{
+  padding: 0.5rem;
+  width:40%;
+  border:0.1rem solid blueviolet;
+  border-radius: 0.2rem;
+}
+.card__button--primary{
+  margin-right: 0.2rem;
+  background-color: blueviolet;
+  color: white;
+}
+.card__button--secondary{
+margin-left: 0.2rem;
+background-color: transparent;
+color: blueviolet;
+}
+.card__button--primary:hover{
+  background-color: transparent;
+  color: blueviolet;
+}
+.card__button--secondary:hover{
+  background-color: blueviolet;
+  color: white;
+}
+.card__badge{
+  background-color:rgb(255, 255, 255);
+  display: inline-block;
+  padding: 0.2rem;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  border-radius: 0.2rem;
+  position: absolute;
+  top:1rem;
+  left: 1rem;
+}
+/*card Dismiss */
+
+.card-dismiss--title{
+  background-color: blueviolet;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+.card-dismiss--text{
+  border: 2px solid blueviolet;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.card-dismiss--icon{
+  background-color:transparent;
+  border:none;
+  position: absolute;
+  top:0.8rem;
+  right: 0.8rem;
+}
+.card-dismiss__img{
+  width:1.5rem;
+  height:1.5rem;
+}
+.card-dismiss--icon:hover{
+  background-color: rgba(252, 252, 252, 0.308);
+  border-radius:0.2rem;
+  display: flex;
+}
+/* Text Overlay */
+.card__content--overlay{
+  position: absolute;
+  top:10.8rem;
+  left:1rem;
+  color:white;
+}
+/* Card horizontal */
+
+.card-hr__wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 25rem;
+  min-width: 12rem;
+}
+.card-hr__img--wrapper{
+  width: 50%;
+}
+.card-hr__content{
+  margin: 0 8px;
+  width: 50%;
+}
+.card-hr__img{
+  width: 100%;
+  flex-shrink: 1;
+}
