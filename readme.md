@@ -1,9 +1,9 @@
 # Aqua_UI
 
-Aqua_UI is a Component-based library. It has different types of Components Which are Used to make developer life easy. Developers can easily use Aqua_UI just to follow some basic instructions. I have Mentioned all the instructions below.
+Aqua_UI is a Component-based library. It has different types of Components Which are used to make developer life easy. Developers can easily use Aqua_UI just to follow some basic instructions. I have mentioned all the instructions below.
 
 # Installation
-Just copy the given link and paste it into the head tag on your HTML page.
+Just copy the given link and paste it into the head tag in your HTML page.
 
 ```bash
 https://aqua-ui.netlify.app/Component-assets/Css/ComponentsStyles.css
@@ -12,7 +12,7 @@ https://aqua-ui.netlify.app/Component-assets/Css/ComponentsStyles.css
 # Usage
 ### How you can use Aqua_UI
 
-Just Copy the given component code and paste it into the body tag on your HTML page.
+Just Copy the given component code and paste it into the body tag in your HTML page.
 
 ```bash
 <div class="avatar-Wrapper--small">
@@ -24,21 +24,21 @@ Just Copy the given component code and paste it into the body tag on your HTML p
 ```
 
 # Technology Used
-### 1. HTML
-### 2. CSS
-### 3. JAVASCRIPT
+ * HTML
+ * CSS
+ * JAVASCRIPT
 
 # Components
-### 1.  Avatar
-### 2.  Alert
-### 3.  Badge
-### 4.  Button
-### 5.  Image
-### 6.  Card
-### 7.  Input
-### 8.  Modal
-### 9.  Navigation
-### 10. Toast
+ * Avatar
+ * Alert
+ * Badge
+ * Button
+ * Image
+ * Card
+ * Input
+ * Modal
+ * Navigation
+ * Toast
 
 # Live Link
 [https://aqua-ui.netlify.app/](https://aqua-ui.netlify.app/)
