@@ -44,8 +44,8 @@ Just Copy the given component code and paste it into the body tag on your HTML p
 [https://aqua-ui.netlify.app/](https://aqua-ui.netlify.app/)
 
 # Aqua_Ui ScreenShots
-![Home-Page](/Home-Page/images/Markdown-Image/Home Page.png)
+![Home-Page](/Home-Page/images/Markdown-Image/Home-Page.png)
 ![Document-page](/Home-Page/images/Markdown-Image/Documentation.png)
-![Card-Page](/Home-Page/images/Markdown-Image/Card Component.png)
-![Modal-Page](/Home-Page/images/Markdown-Image/Modal Component.png)
-![Toast-Page](/Home-Page/images/Markdown-Image/Toast Component.png)
+![Card-Page](/Home-Page/images/Markdown-Image/Card-Component.png)
+![Modal-Page](/Home-Page/images/Markdown-Image/Modal-Component.png)
+![Toast-Page](/Home-Page/images/Markdown-Image/Toast-Component.png)
