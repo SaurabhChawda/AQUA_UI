@@ -729,8 +729,11 @@ main {
   list-style-type: none;
   padding: 0.5rem 1rem;
 }
-.linked-list--items {
+.linked-list--item {
   margin: 0.5rem;
+}
+.linked-list--item-link {
+  color: var(--primary-color);
 }
 .stacked-list {
   border: 2px solid var(--primary-bg);
@@ -743,37 +746,4 @@ main {
   border: 2px solid var(--secondary-bg);
   margin: 4px;
   padding: 4px;
-}
-
-/* Rating */
-.rating {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.checked {
-  color: var(--secondary-bg);
-}
-.review__textarea {
-  resize: none;
-}
-
-/* Grid */
-.grid-two-container {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  gap: 0.5rem;
-}
-.grid-three-container {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  gap: 0.5rem;
-}
-.grid-item {
-  text-align: center;
-  padding: 1rem;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
 }
