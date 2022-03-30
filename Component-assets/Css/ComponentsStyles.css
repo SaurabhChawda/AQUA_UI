@@ -747,3 +747,15 @@ main {
   margin: 4px;
   padding: 4px;
 }
+/* Rating */
+.user-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.checked {
+  color: var(--secondary-bg);
+}
+.review__textarea {
+  resize: none;
+}
