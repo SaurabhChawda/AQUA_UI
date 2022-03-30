@@ -59,4 +59,10 @@
   .sample__code{
     max-width:20rem;
   }
+  .grid-two-container {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
+  .grid-three-container {
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  }
 }
