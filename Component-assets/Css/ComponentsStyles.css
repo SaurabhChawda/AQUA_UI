@@ -747,6 +747,25 @@ main {
   margin: 4px;
   padding: 4px;
 }
+/* Grid */
+.grid-two-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr auto;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 0.5rem;
+}
+.grid-three-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr auto;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.5rem;
+}
+.grid-item {
+  height: 20rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 /* Rating */
 .user-rating {
   display: flex;
