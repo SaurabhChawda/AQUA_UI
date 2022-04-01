@@ -135,6 +135,7 @@ main {
   box-shadow: 2px 5px 5px var(--primary-bg);
   border-right: 3px solid var(--secondary-bg);
 }
+
 .sidebar__title {
   margin: 1rem;
   padding: 8px 1rem;
@@ -144,7 +145,7 @@ main {
 }
 .sidebar__item {
   font-size: var(--font-size-large);
-  margin: 12px;
+  margin: 6px;
   padding: 5px;
   color: var(--primary-color);
 }
@@ -766,7 +767,9 @@ main {
   padding: 1rem;
   background-color: var(--primary-color);
   color: var(--secondary-color);
+}
 /* Rating */
+
 .user-rating {
   display: flex;
   flex-direction: column;
