@@ -431,7 +431,6 @@ main {
 /* Modal */
 
 .modal__wrapper {
-  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -462,9 +461,6 @@ main {
   min-width: 15rem;
   padding: 1rem;
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   z-index: 1;
   position: fixed;
